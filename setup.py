@@ -6,9 +6,9 @@ package setup/insert/installation and metadata for lambdata
 import setuptools
 REQUIRED = [
         "numpy",
-        "pandas"
-        "sklearn"
-        "matplotlib"
+        "pandas",
+        "sklearn",
+        "matplotlib",
         "seaborn"
 ]
 with open ("README.md", "r") as fh:
@@ -16,7 +16,7 @@ with open ("README.md", "r") as fh:
 
 setuptools.setup(
         name="Lambdata-manjulamishra",
-        version="0.0.2",
+        version="0.0.5",
         author="manjulamishra",
         description="A collection of Data Science helper funtions",
         long_description=LONG_DESCRIPTION,
