@@ -1,2 +1,2 @@
 # Lambdata
-Python packages with helpful utility functions for data science 
+Python packages with helpful utility functions for data science!
