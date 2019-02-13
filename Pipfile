@@ -12,3 +12,7 @@ pandas = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+dist_command = "python setup.py sdist bdist_wheel"
+twine_command = "twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
