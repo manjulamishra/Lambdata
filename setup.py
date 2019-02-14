@@ -7,16 +7,17 @@ import setuptools
 REQUIRED = [
         "numpy",
         "pandas",
-        "sklearn",
+        "scipy",
         "matplotlib",
-        "seaborn"
+        "sklearn"
+        
 ]
 with open ("README.md", "r") as fh:
     LONG_DESCRIPTION =fh.read()
 
 setuptools.setup(
         name="Lambdata-manjulamishra",
-        version="0.0.8",
+        version="0.0.9",
         author="manjulamishra",
         description="A collection of Data Science helper funtions",
         long_description=LONG_DESCRIPTION,
